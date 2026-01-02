@@ -1,0 +1,24 @@
+{
+  "name": "projet-git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Osiris-IA/Portfolio-Git.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Osiris-IA/Portfolio-Git/issues"
+  },
+  "homepage": "https://github.com/Osiris-IA/Portfolio-Git#readme",
+  "devDependencies": {
+    "htmlhint": "^1.8.0"
+  }
+}
