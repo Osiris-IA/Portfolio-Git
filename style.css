@@ -171,6 +171,19 @@ body.dark-mode .card {
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-menu {
+    margin-top: 1rem;
+    padding: 0;
+  }
+
+  .nav-item {
+    margin: 0 0.7rem;
+  }
   .hero h2 {
     font-size: 1.5rem;
   }
