@@ -52,7 +52,11 @@ header {
     font-weight: 500;
     padding: 0.5rem 0;
     display: inline-block;
+    transition: color 0.3s ease;
 }
+.nav-link:hover {
+    color: #3498db;
+} 
 
 main {
     flex: 1; 
@@ -89,6 +93,7 @@ footer {
 .footer-section a {
   color: #bdc3c7;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .footer-section a:hover {
@@ -124,6 +129,7 @@ footer {
   display: flex;
   gap: 1.5rem;
   flex-wrap: wrap;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card {
