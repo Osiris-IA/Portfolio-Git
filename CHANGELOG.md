@@ -2,6 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.1] - 2026-01-03
+- Updated the repository clone command in the README.
+
 ## [3.0.0] - 2026-01-03
 
 ### Added
