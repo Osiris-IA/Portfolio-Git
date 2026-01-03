@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mon Portfolio - Contact</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <h1>Mon Portfolio</h1>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
+          <li class="nav-item"><a href="apropos.html" class="nav-link">À propos</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2>Me contacter</h2>
+          <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+              <label for="name">Nom complet :</label>
+              <input type="text" id="name" name="name" required placeholder="Votre nom" />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Adresse email :</label>
+              <input type="email" id="email" name="email" required placeholder="votre@email.com" />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Votre message :</label>
+              <textarea id="message" name="message" rows="6" required placeholder="Écrivez votre message ici..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">Envoyer</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>
