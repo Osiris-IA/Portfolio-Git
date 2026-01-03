@@ -8,7 +8,7 @@ Ce projet à pour but de montrer toutes les bonnes pratiques Git et du Git Flow.
 - Cloner le repository 
 
 ```bash
-git clone git@github.com:Osiris-IA/git-portfolio.git
+git clone git@github.com:Osiris-IA/Portfolio-Git.git
 ```
 - Installer le hook de pre-commit
 
