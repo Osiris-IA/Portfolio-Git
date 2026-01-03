@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Mon Portfolio - Accueil</title>
+    <title>Mon Portfolio - Contact</title>
   </head>
   <body>
     <header>
@@ -15,35 +15,39 @@
         <ul class="nav-menu">
           <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
           <li class="nav-item"><a href="apropos.html" class="nav-link">À propos</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
           <li class="nav-item"><a href="project.html" class="nav-link">Projets</a></li>
+
         </ul>
       </nav>
     </header>
+
     <main>
-      <section class="hero">
-        <h2>Bienvenue sur mon Portfolio</h2>
-        <p>Développeur web passionné</p>
-      </section>
-      
-      <section class="projects">
-        <h2>Mes Projets</h2>
-        <div class="cards">
-          <div class="card">
-            <h3>Projet 1</h3>
-            <p>Description du projet</p>
-          </div>
-          <div class="card">
-            <h3>Projet 2</h3>
-            <p>Description du projet</p>
-          </div>
-          <div class="card">
-            <h3>Projet 3</h3>
-            <p>Description du projet</p>
-          </div>
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2>Me contacter</h2>
+          <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+              <label for="name">Nom complet :</label>
+              <input type="text" id="name" name="name" required placeholder="Votre nom" />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Adresse email :</label>
+              <input type="email" id="email" name="email" required placeholder="votre@email.com" />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Votre message :</label>
+              <textarea id="message" name="message" rows="6" required placeholder="Écrivez votre message ici..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">Envoyer</button>
+          </form>
         </div>
       </section>
     </main>
+
     <footer>
       <div class="footer-container">
         <div class="footer-section">
@@ -70,6 +74,5 @@
         <p>&copy; 2026 Mon Portfolio. Tous droits réservés.</p>
       </div>
     </footer>
-    <script src="script.js"></script>
   </body>
 </html>

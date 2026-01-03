@@ -2,39 +2,36 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
-## [1.0.0] - 2025-01-02
+## [2.0.0] - 2026-01-03
 
 ### Added
-- Initial project setup with Git Flow workflow
-- Branch protection rules on `main` and `develop`
-- Feature: User authentication system (#1)
-- Feature: Dashboard interface (#3)
-- Feature: Data export functionality (#5)
-- Git hooks with ESLint for code quality
-- Comprehensive documentation (README, CONTRIBUTING, CODE_OF_CONDUCT)
-- Kanban board for project management
+- ✨ Page À propos complète avec présentation personnelle
+- ✨ Page Projets avec grille responsive
+- ✨ Page Contact avec formulaire fonctionnel
+- ✨ Navigation cohérente entre toutes les pages
+- 🎨 Styles CSS complets (base, layout, responsive)
+- 📱 Design responsive pour mobile et tablette
+- ⚡ JavaScript interactif (menu burger, scroll animations)
+- ✅ Validation de formulaire en temps réel
+- 🎯 Animations au scroll avec Intersection Observer
+
+### Changed
+- 🔄 Amélioration de la structure du site
+- 🎨 Refonte complète du design
+- 📝 Mise à jour de la documentation
 
 ### Fixed
-- Fixed login bug causing session timeout (#2)
-- Resolved CSS styling issues on mobile (#4)
+- 🐛 Correction de bugs d'affichage mobile
+- 🐛 Amélioration de l'accessibilité
 
-### Security
-- Implemented signed commits for all contributors
-- Added mandatory code reviews for all PRs
+## [1.0.0] - 2026-01-02
 
-### Documentation
-- Created detailed README with installation instructions
-- Added CONTRIBUTING guidelines for new contributors
-- Established CODE_OF_CONDUCT for community standards
-- Documented Git Flow workflow
+### Added
+- 🎉 Initialisation du projet
+- 📋 Structure de base
+- 🪝 Hook pre-commit avec htmlhint
+- 📦 Configuration npm et htmlhint
+- 📄 README.md avec documentation complète
 
-### Development
-- Configured ESLint with pre-commit hooks
-- Set up GitHub Actions for CI/CD (if applicable)
-- Created issue templates
-- Implemented pull request templates
-
-[1.0.0]: https://github.com/VOTRE-USERNAME/VOTRE-REPO/releases/tag/v1.0.0
+[2.0.0]: https://github.com/Osiris-IA/Portfolio-Git/compare/v1.0.0...v2.0.0
+[1.0.0]: https://github.com/Osiris-IA/Portfolio-Git/compare/v1.0.0
